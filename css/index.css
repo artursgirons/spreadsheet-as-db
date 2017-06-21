@@ -1,144 +1,137 @@
-﻿html, body {
-    font-family: Courier New;
-	height: 100%;
+html, body {
+  font-family: Courier New;
+  height: 100%;
 }
-html {
-}
+
+html {}
 
 .hide {
-	display: none;
+  display: none;
 }
 
-
 #page {
-	margin: 0 auto;
-	min-height: 100%;
-	width: 900px;
-	background-color: #FDFDFD;
+  margin: 0 auto;
+  min-height: 100%;
+  width: 900px;
+  background-color: #FDFDFD;
 }
 
 #map {
-	width: 895px;
-	height: 400px;
-    border-left: 5px solid #FF7E73;
-    background-color: #E5E3DF;
+  width: 895px;
+  height: 400px;
+  border-left: 5px solid #FF7E73;
+  background-color: #E5E3DF;
 }
 
 #header {
-	height: 50px;
-    padding-left: 5px;
-	padding-right: 5px;
+  height: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#header div 
-{
-    cursor: pointer;
+#header div {
+  cursor: pointer;
 }
 
 .menudiv {
-	margin-right: 15px;
-    float: left;	
+  margin-right: 15px;
+  float: left;
 }
 
 .langdiv {
-	margin-left: 15px;
-    float: right;
+  margin-left: 15px;
+  float: right;
 }
 
-#header div a 
-{
-    text-decoration: none;	
-    font-size: 21pt;
-    line-height: 50px;
-    color: silver;
-	vertical-align: bottom;
+#header div a {
+  text-decoration: none;
+  font-size: 21pt;
+  line-height: 50px;
+  color: silver;
+  vertical-align: bottom;
 }
 
-#header div a.selected
-{
-    color: #FF7E73;
+#header div a.selected {
+  color: #FF7E73;
 }
 
-#header div a:hover 
-{
-    color: #B15952;
+#header div a:hover {
+  color: #B15952;
 }
 
 .headnotes {
-    font-size: 21pt;
-    line-height: 40px;
-    background-color: #EEE;
-	color: #A3A3A3;
-	padding-left: 5px;
+  font-size: 21pt;
+  line-height: 40px;
+  background-color: #EEE;
+  color: #A3A3A3;
+  padding-left: 5px;
 }
+
 #itemholder {
-	padding-top:15px;
-	margin-left:-30px
+  padding-top: 15px;
+  margin-left: -30px
 }
+
 .pitem {
-    border-left: 5px solid #FF7E73;
-    width: 275px;
-    height: 187px;
-    float: left;
-    margin-left: 30px;
-    background-color: #EEE;
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
-    cursor: pointer;
+  border-left: 5px solid #FF7E73;
+  width: 275px;
+  height: 187px;
+  float: left;
+  margin-left: 30px;
+  background-color: #EEE;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .pitem:hover {
-    border-left: 5px solid #B15952;
+  border-left: 5px solid #B15952;
 }
 
 .pitemtitle {
-	padding: 4px;
-	color: #636363;
-	font-size: 15pt;
-	background-image: url('../img/transp_for_white.png');
-	text-align: center;
+  padding: 4px;
+  color: #636363;
+  font-size: 15pt;
+  background-image: url('../img/transp_for_white.png');
+  text-align: center;
 }
 
-#page_contacts table 
-{
-    color: #5E5E5E;
-	margin: 0px auto;
-	margin-top: 60px;
+#page_contacts table {
+  color: #5E5E5E;
+  margin: 0px auto;
+  margin-top: 60px;
 }
 
 #page_contacts table td {
-	padding-left: 10px;
-	padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #page_contacts .c_r_head {
-	text-align: right;
+  text-align: right;
 }
 
 #page_contacts .c_head {
-	font-size: 21pt;
+  font-size: 21pt;
 }
 
-#page_contacts a 
-{
-	text-decoration: none;
-	color: inherit;
+#page_contacts a {
+  text-decoration: none;
+  color: inherit;
 }
 
-#page_contacts a:hover 
-{
-    text-decoration: underline;
+#page_contacts a:hover {
+  text-decoration: underline;
 }
 
 .fancyDiv {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.fancyDiv img
-{
-    margin: 10px;
+.fancyDiv img {
+  margin: 10px;
 }
