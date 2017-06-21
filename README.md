@@ -1,7 +1,5 @@
 ## Google spreadsheet as database
 
-#### Description
-
 Sample static webpage that uses Google spreadsheet as database for portfolio items.
 
 No server code needed.
