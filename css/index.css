@@ -12,12 +12,12 @@ html {}
 #page {
   margin: 0 auto;
   min-height: 100%;
-  width: 900px;
+  max-width: 900px;
   background-color: #FDFDFD;
 }
 
 #map {
-  width: 895px;
+  max-width: 895px;
   height: 400px;
   border-left: 5px solid #FF7E73;
   background-color: #E5E3DF;
